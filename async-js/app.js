@@ -1,18 +1,18 @@
 //async function
 
-// async function greet () {
-//     // throw "404 - page was not found!!"
-//     return "Resolved";
-// }
+async function greet () {
+    // throw "404 - page was not found!!"
+    return "Resolved";
+}
 
-// greet()
-// .then((res)=>{
-//     console.log("promise resolved");
-//     console.log(res);
-// })
-// .catch((e)=>{
-//     console.log(e);
-// })
+greet()
+.then((res)=>{
+    console.log("promise resolved");
+    console.log(res);
+})
+.catch((e)=>{
+    console.log(e);
+})
 
 // await keyword
 let box = document.querySelector(".box");
