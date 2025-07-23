@@ -14,3 +14,10 @@ console.log(findRichest([[1, 2, 3], [2, 3, 4]]));
 
 
 // arr = [[1, 2, 3], [2, 3, 4]];
+
+function findRichest2(arr) {
+    return arr.reduce((max, current) => {
+        const sum = current.reduce((a, b) => a + b, 0);
+        return Math.max(max, sum);
+    }, 0);
+}
