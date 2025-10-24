@@ -23,5 +23,5 @@ function allSubArrays(A) {
 
 //----------------------------------------------------------
 
-console.log(printSubArray([1, 2, 3, 4, 5], 0, 4));
+console.log(printSubArray([1, 2, 3, 4, 5], 1, 3));
 console.log(allSubArrays([1, 2, 3, 4, 5]));
